@@ -4,38 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet"  href="./Assets/style.css"/>
+    <title>Quiz</title>
 </head>
+
 <body>
-    <div  id="question-1">
-        <p>Javascript is an ___ language?</p>
-        <button onclick="confirm('a')">a. Object-Oriented</button><br>
-        <button onclick="confirm('b')">b. Object-Based</button><br>
-        <button onclick="confirm('c')">c. Procedural</button><br>
-        <button onclick="confirm('d')">d. None of the above</button>
-      </div>
-      <div  id="question-2" hidden>
-        <p>Which of the following keywords is used to define a variable in Javascript??</p>
-        <button onclick="confirm('yes')">a. var</button><br>
-        <button onclick="confirm('no')">b. let</button><br>
-        <button onclick="confirm('no')">c. Both A and B</button><br>
-        <button onclick="confirm('no')">d. None of the above</button>
-      </div>
-      <div  id="question-3" hidden>
-        <p>Which of the following methods is used to access HTML elements using Javascript?</p>
-        <button onclick="confirm('yes')">a. getElementbyId()</button><br>
-        <button onclick="confirm('no')">b. getElementByClassName()</button><br>
-        <button onclick="confirm('no')">c. Both A and B</button><br>
-        <button onclick="confirm('no')">d. None of the above</button>
-      </div>
-      <div  id="question-4" hidden>
-        <p>Which of the following methods can be used to display data in some form using Javascript?</p>
-        <button onclick="confirm('yes')">a. document.write()</button><br>
-        <button onclick="confirm('no')">b. console.log()</button><br>
-        <button onclick="confirm('no')">c. window.alert()</button><br>
-        <button onclick="confirm('no')">d. All of the above</button>
-      </div>
+    <class=header></class>
+    <h1>Quiz</h1>
+    <h2 id="scoreRes"></h2>
+    <h3 id="time"></h3>
+    <h4 id="message"></h4>
+    <div id="btn"></div>
+     <div id="questions"></div>
+     <div id="input"></div>
+     <div id="showRight"></div>
     <script src="./Assets/script.js"></script>
 </body>
+
 </html>
